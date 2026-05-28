@@ -1,3 +1,5 @@
+// This one is Mickey Mouse made with Rings
+
 #include <windows.h>
 #include <GL/glut.h>
 #include <stdlib.h>
@@ -21,7 +23,7 @@ void init(void)
     glEnable(GL_DEPTH_TEST);
 }
 void display(void)
-{ // I want to design the Olympics logo
+{
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glPushMatrix();
@@ -74,7 +76,6 @@ void display(void)
 
     glFlush();
     glutSwapBuffers();
-    // What if I write something here and see how it changes in CodeBlocks 
 }
 
 void reshape(int w, int h)
