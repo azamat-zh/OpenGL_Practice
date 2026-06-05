@@ -17,4 +17,4 @@ Lab 7 - Mickey Mouse made of toruses
 
 Lab 8 - Teaport on a cube
 
-Lab 9 - 
+Lab 9 - Planetary System
